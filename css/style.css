@@ -20,6 +20,23 @@ header > .myPic{
 	width:250px;
 	height:250px;
 	border:5px solid black;
+	border-radius: 100%;
+}
+
+@media screen and (min-width : 1224px){
+	body{
+		display: inline-block;
+	}
+
+	header{
+		margin-left:15%;
+		margin-top: 5%;
+	}
+
+	header > .myPic{
+		border-radius: 0;
+		height:300px;
+	}
 }
 
 /*===============================*/
@@ -47,6 +64,18 @@ section h1:hover{
 	opacity:.7;
 	transition:all 1s ease-in-out;
 }
+/**
+@media screen and (min-width : 1224px){
+	main{
+		width:800px;
+	}
+	section{
+		position: relative;
+		bottom:300px;
+		left:180px;
+	}
+}
+*/
 /*==================================*/
 
 /*==============Footer===============*/
@@ -78,6 +107,20 @@ footer img:hover{
 	opacity:.7;
 	transition:1s ease;
 }
+/**
+@media screen and (min-width : 1224px){
+	footer{
+		width:700px;
+		margin-top:-150px;
+	}
+
+	footer img{
+		height:100px;
+		width:100px;
+		transition: 1s;
+	}
+}
+/*
 /*===================================*/
 
 .hidden{
