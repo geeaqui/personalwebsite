@@ -81,9 +81,9 @@ footer img:hover{
 }
 /*===================================*/
 
-
 .hidden{
 	display:none;
+	padding:50px;
 }
 
 .show{
