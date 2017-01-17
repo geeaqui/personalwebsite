@@ -107,7 +107,7 @@ footer img:hover{
 	opacity:.7;
 	transition:1s ease;
 }
-/**
+
 @media screen and (min-width : 1224px){
 	footer{
 		width:700px;
@@ -117,10 +117,10 @@ footer img:hover{
 	footer img{
 		height:100px;
 		width:100px;
-		transition: 1s;
+		//transition: 1s;
 	}
 }
-/*
+
 /*===================================*/
 
 .hidden{
