@@ -1,17 +1,17 @@
 $(document).ready(function(){
     $(".about").click(function(){
-        $(".about >> .hidden").toggle();
+        $(".about >> .hidden").slideToggle();
     });
 
      $(".experience").click(function(){
-        $(".experience >> .hidden").toggle();
+        $(".experience >> .hidden").slideToggle();
     });
 
       $(".education").click(function(){
-        $(".education >> .hidden").toggle();
+        $(".education >> .hidden").slideToggle();
     });
 
       $(".skills").click(function(){
-        $(".skills >> .hidden").toggle();
+        $(".skills >> .hidden").slideToggle();
     });
 });
