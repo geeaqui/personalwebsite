@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width:100%;
+	font-family:"Helvetica Neue";
+}
+
+a{
+	text-decoration: none;
+}
+/*=============header============*/
+header{
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header > .myPic{
+	width:250px;
+	height:250px;
+	border:5px solid black;
+}
+
+/*===============================*/
+
+/*=============Main-Section============*/
+main{
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section h1{
+	font-size: 18px;
+	border:1px solid #c5c8cc;
+	background: #195fd1;
+	text-align: center;
+	padding:20px 0;
+}
+section a{
+	color:#fff;
+}
+
+section h1:hover{
+	font-size: 26px;
+	opacity:.7;
+	transition:all 1s ease-in-out;
+}
+/*==================================*/
+
+/*==============Footer===============*/
+footer{
+	width:350px;
+	margin: 50px auto 0 auto;
+}
+
+footer > h1{
+	font-size: 18px;
+	color:#96989b;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer img{
+	height:50px;
+	width:50px;
+}
+
+footer > ul >li {
+	display:inline-block;
+	margin-left: 15%
+}
+
+footer img:hover{
+	height:50px;
+	width:50px;
+	opacity:.7;
+	transition:1s ease;
+}
+/*===================================*/
+
+
+.hidden{
+	display:none;
+}
+
+.show{
+	display:block;
+}
+
+
+
+
+
+
+
