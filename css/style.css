@@ -64,7 +64,7 @@ section h1:hover{
 	opacity:.7;
 	transition:all 1s ease-in-out;
 }
-/**
+
 @media screen and (min-width : 1224px){
 	main{
 		width:800px;
@@ -75,7 +75,7 @@ section h1:hover{
 		left:180px;
 	}
 }
-*/
+
 /*==================================*/
 
 /*==============Footer===============*/
