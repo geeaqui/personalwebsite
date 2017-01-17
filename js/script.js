@@ -2,7 +2,16 @@ $(document).ready(function(){
     $(".about").click(function(){
         $(".about >> .hidden").toggle();
     });
-    $(".about").click(function(){
-        $("p").addClass('hidden');
+
+     $(".experience").click(function(){
+        $(".experience >> .hidden").toggle();
+    });
+
+      $(".education").click(function(){
+        $(".education >> .hidden").toggle();
+    });
+
+      $(".skills").click(function(){
+        $(".skills >> .hidden").toggle();
     });
 });
